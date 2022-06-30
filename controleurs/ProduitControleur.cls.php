@@ -1,5 +1,5 @@
 <?php
-class NouveauControleur extends Controleur
+class ProduitControleur extends Controleur
 {
     /**
      * Méthode invoquée par défaut si aucune action n'est indiquée
@@ -10,4 +10,11 @@ class NouveauControleur extends Controleur
         //$this->tout($params);
 
     }
+
+    // route : produit/tout
+    public function tout($params) {
+
+    }
+
+    // route : ...
 }
